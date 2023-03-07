@@ -1,0 +1,32 @@
+section{
+    border: dotted cyan 3px;
+    height: 250px;
+    width: 600px;
+    color: aqua;
+}
+section, p{
+    color: black;
+}
+
+.forUsers{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.goalsSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#motivationBtn{
+    margin-top: 40px;
+}
